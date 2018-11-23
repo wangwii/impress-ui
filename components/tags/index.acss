@@ -1,0 +1,19 @@
+.root {
+}
+
+.btn {
+  width: 12rpx;
+  height: 12rpx;
+  margin-top: -100rpx;
+  margin-right: 80rpx;
+}
+
+.tags {
+  padding: 10px;
+  margin-top: 3rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  text-align: left;
+  border-radius: 8rpx;
+  border: 2rpx solid #CAD0D2;
+}

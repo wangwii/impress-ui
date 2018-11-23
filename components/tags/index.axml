@@ -1,0 +1,11 @@
+<view class="container has-text-left root">
+  <button class="button is-danger is-small is-pulled-right btn" onTap="doIt">+</button>
+  <view class="is-clearfix tags">
+    <text>
+      Tag1, Tag2, Tag3,
+      Tag4, Tag5, Tag6,
+      Tag7,
+      {{x}}  
+    </text>
+  </view>
+</view>

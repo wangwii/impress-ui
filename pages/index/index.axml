@@ -1,0 +1,6 @@
+<view class="root">
+  <image class="img" mode="widthFix" src="{{img}}" onLoad="onImageLoad"/>
+  <text class="tips">
+    {{tips}}  
+  </text>
+</view>

@@ -1,0 +1,11 @@
+{
+  "name": "impress-ui",
+  "version": "1.0.0",
+  "author": "Rex",
+  "private": true,
+  "description": "Imress TA for you.",
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {}
+}

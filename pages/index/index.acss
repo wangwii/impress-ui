@@ -1,0 +1,17 @@
+.root {
+  padding-top: 30%;
+}
+
+.img {
+  width: 350rpx;
+  height: 350rpx;
+  margin-left: auto; 
+  margin-right:auto; 
+  display: block;  
+}
+
+.tips {
+  display: block;  
+  text-align: center;
+  margin-top: 10rpx; 
+}

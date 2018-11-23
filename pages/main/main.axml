@@ -1,0 +1,13 @@
+<swiper class="container is-fluid root" indicator-dots="true">
+  <block class="block" a:for="{{users}}" a:for-item="u">
+    <swiper-item key="{{u.unionid}}">
+      <view class="hero is-fullheight swiper-item">
+        <view class="container is-fluid swiper-item-wrap">
+          <image class="img" src="{{u.avatar}}" />
+          <text class="text">{{u.name}}</text>
+          <tags/>
+        </view>
+      </view>
+    </swiper-item>  
+  </block>
+</swiper>

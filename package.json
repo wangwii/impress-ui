@@ -5,6 +5,7 @@
   "private": true,
   "description": "Imress TA for you.",
   "dependencies": {
+    "ramda": "^0.26.0",
     "rxjs": "^6.3.3"
   },
   "devDependencies": {}

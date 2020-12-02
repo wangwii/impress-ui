@@ -1,13 +1,24 @@
 Component({
   mixins: [],
-  data: { x: 1 },
-  props: { y: 1 },
+  props: { data: [], list: [] },
+  data: {
+    adding: false, saving: false,
+  },
   didMount() { },
   didUpdate() { },
   didUnmount() {},
   methods: {
-    doIt() {
-      this.setData({ x: this.data.x + 1 });
+    onAdd() {
+      this.setData({ adding: true });
     },
+    onSave() {
+      this.setData({ adding: false });
+    },
+    onCancel() {
+      this.setData({ adding: false });
+    },
+    onTap(e) {
+      console.log('OnTap: ' + JSON.stringify(e));
+    }
   },
 });

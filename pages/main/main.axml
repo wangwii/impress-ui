@@ -5,7 +5,7 @@
         <view class="container is-fluid swiper-item-wrap">
           <image class="img" src="{{u.avatar}}" />
           <text class="text">{{u.name}}</text>
-          <tags/>
+          <tags data={{u.tags}} list={{u.taglist}}/>
         </view>
       </view>
     </swiper-item>  
